@@ -1,0 +1,68 @@
+body{
+        background-color: #cccccc;
+}
+
+h2 {
+        font-size: 72px;
+        font-weight: 800;
+        text-align: center;
+        color: #e41a1c;
+}
+
+h4 {
+        font-size: 42;
+        text-align: center;
+        font-weight: 800;
+}
+
+h5 {
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 800;
+        color: black;
+        
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;    
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #e41a1c;
+}
+
+.outer{
+        background-image: url(NYCmapBackground.png);
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 40px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: scroll;
+        padding: 0;
+}
+
+#home{
+        background-color: white;
+        color: black;
+        padding: 0 20px 20px 20px;
+        opacity: 0.75;
+        text-align: center;
+        overflow:scroll;
+}
+
+#documentation {
+        background-color: white;
+        color: black;
+        padding: 0 20px 20px 20px;
+        opacity: 0.75;
+        text-align: left;
+        overflow: scroll;
+        
+}
